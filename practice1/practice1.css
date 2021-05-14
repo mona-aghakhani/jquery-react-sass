@@ -1,0 +1,65 @@
+/* @font-face {
+  font-family: "BRoya";
+  src: url("fonts/BRoya.eot") format ("eot");
+  src: url("fonts/BRoya.ttf") format ("ttf");
+  src: url("fonts/BRoya.woff") format ("woff");
+}
+body {
+  font-family: "IranSans", Arial, Helvetica, sans-serif;
+  direction: rtl;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #totality {
+    background-color: rgb(233 185 193 / 51%);
+    direction: rtl;
+  }
+  #totalTax {
+    background-color: rgb(200 231 203 / 63%);
+    direction: rtl;
+  }
+  table th {
+    background-color: rgb(236, 231, 231);
+    font-size: 12px;
+  }
+  table {
+    width: 92% !important;
+    margin: auto;
+    direction: rtl;
+    /* border: 1px solid gray; */
+  }
+  
+  table tbody {
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+  }
+  button {
+    width: 25px;
+    height: 25px;
+    border: 1px solid gray;
+    background-color: white;
+    transform: translateX(48px);
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  #myTable input,
+  #myTable select {
+    border: none;
+    width: 100%;
+    background-color: transparent;
+  }
+  input:active {
+    border: none;
+    outline: none;
+  }
+  #myTable td {
+    text-align: right;
+    padding: 0;
+  }
+  
